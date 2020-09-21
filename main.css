@@ -1,0 +1,191 @@
+* {
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+html {
+	background: url(images/pozadina.jpg) repeat;
+}
+body {
+	margin: 0;
+	padding:0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 1.5em;
+	color: #fff;
+	background: url(images/pozadina2.jpg) repeat-x  center top;
+	width: 100%;
+	display: table;
+}
+
+a:link, a:visited { color: #008800; text-decoration: none; } 
+a:active, a:hover { color: #CC0000; text-decoration: none }
+
+h1 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #86c111;
+	background: url(images/h1.jpg) no-repeat;
+	background-position: left;
+	height: 48px;
+	padding-left: 38px;
+	padding-top: 20px;
+	
+}
+h2 {
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-top: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	height: 26px;
+	background: url(images/h2.jpg) repeat-x;
+}
+
+.wrapper {
+	width: 900px;
+	margin: auto;
+}
+.wrapper header{
+	float: left;
+	width: 900px;
+	height: 108px;
+
+}
+#naslov {
+	float: left;
+	width: 300px;
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 20px;
+	height: 34px;
+	padding-top: 10px;
+	padding-left: 55px;
+	background: url(images/logo.png) no-repeat;
+}
+#naslov img {
+	float: left;
+}
+.meni{
+	float: right;
+	margin-top: 30px;
+}
+
+.meni ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.meni li{
+	display: inline;
+}
+
+.meni li a{
+	float: left;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	width: 80px;
+	height: 24px;
+	margin-left: 10px;
+	padding-top: 3px;
+	background: url(images/button.png) no-repeat;
+}
+
+
+
+.meni li a:hover, .meni li .active {
+	color: #fff;
+	background: url(images/active.png) no-repeat;
+}
+
+#left_column {
+	float: left;
+	width: 323px;
+}
+#left_top {
+	float: left;
+	width: 323px;
+	height: 219px;
+	background: url(images/baner.jpg) no-repeat;
+}
+.leftmenu {
+	float: left;
+	width: 260px;
+	margin-top: 0px;
+}
+.leftmenu ul {
+	list-style-type: none;
+	padding-left: 70px;
+	margin:10px;
+}
+.leftmenu li a {
+	display: block;
+	height: 20px;
+	font-size: 11px;
+	color: #3c4826;
+	background: url(images/button.gif);
+}
+.leftmenu li a:hover, .templatemo_leftmenu li .current {
+	color: #000;
+}
+#right_column {
+	float: right;
+	width: 577px;
+	background: url(images/right_bg.png) repeat-y;
+
+}
+#right_top {
+	float: left;
+	margin: auto;
+	width: 577px;
+	height: 107px;
+	background: url(images/header.jpg) no-repeat;
+}
+#right_mid {
+	float: left;
+	width: 446px;
+	margin: 0px auto;
+	background: #fff;
+	color: #666666;
+	padding: 0px 45px 0px 45px;
+	text-align: justify;
+}
+#right_mid img {
+	float: right;
+	padding-left: 10px;
+}
+
+#right_bot {
+	float: left;
+	margin-top: 0px;
+	padding-top: 50px;
+	width: 561px;
+	height: 25px;
+	color: #333333;
+	text-align: center;
+	font-weight: bold;
+	background: url(images/footer.jpg) no-repeat;
+}
+
+.button {
+	font-family: Tahoma, "Arial Black";
+	float: left;
+	width: 165px;
+	padding: 10px 0px 0px 50px;
+	margin: 20px 0px 0px 50px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	height: 30px;
+	background: url(images/h3.png) no-repeat;
+}
+.check {
+	float: left;
+	width: 323px;
+	text-align: center;
+}
